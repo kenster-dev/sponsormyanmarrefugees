@@ -1,4 +1,5 @@
 # The sponsor-myanmar-refugees project
+
 This is a website showing refugee kids from Northern Myanmar in need of Sponsors. There are around 70 kids featured on the page, most of the kids are victims of the civil war going on in Northern Myanmar right now.
 
 I don't know if anyone will read this, but here's some background if you do: I've travelled a lot in Southeast Asia on various volunteer/NGO trips, last spring, I travelled into Myanmar with a few other guys to help a local man who had started a handful of children's homes throughout Myanmar. We helped with a small building project at one of the homes. Fast forward to this winter when the attacks in Northern Myanmar started getting worse, and my local friend built another home for all the children displaced by the fighting. The home is built now, so that's great, but now he has aroung 70 kids who need sponsors... and that's what this website is all about.
