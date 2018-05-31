@@ -8,4 +8,6 @@ My local church has been working with this burmese man for a number of years now
 The site consists of a simple home page showing all the kids photos, names, ages, and (hopefully sooon) their current status: sponsored or unsponsored.
 There will also be an about page with more info on who I am and my connection to the children's home in Myanmar.
 
+This still in early development at this point.
+
 <3

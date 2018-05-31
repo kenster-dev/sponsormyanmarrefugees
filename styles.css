@@ -1,4 +1,55 @@
+/******************** Body ********************/
+
 body
 {
     text-align: center;
+    padding-top: 150px;
+}
+
+#homeTopText,
+#aboutTopText
+{
+    width: 80%;
+    margin: 0px auto 70px auto;
+}
+
+.navbar-nav .nav-item
+{
+    width: 100px;
+    /* border: 1px solid white; */
+    text-align: left;
+}
+
+/******************** HOME PAGE: Kids profiles ********************/
+
+img
+{
+    border-radius: 3px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.personalInfo
+{
+    font-size: .8em;
+}
+
+.personalInfo div
+{
+    margin-bottom: 10px;
+}
+
+.personalInfo span
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sponsored
+{
+    border: 2px solid green;
+}
+.unsponsored
+{
+    border: 2px solid red;
 }
