@@ -27,7 +27,8 @@ body
     background: #36607E;
     color: #ffffff;
     padding: 4px 15px 4px 15px;
-
+    width: 30%;
+    margin: auto;
     border-radius: 20px;
 }
 
