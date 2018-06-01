@@ -1,5 +1,8 @@
 
 
+console.log(window.location.pathname)
+console.log(top.location.pathname)
+console.log(window.location.href)
 
 // if on the home page:
 if (window.location.pathname === "/sponsor-myanmar-refugees")
