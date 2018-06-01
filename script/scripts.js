@@ -3,7 +3,7 @@
 
 // if on the home page:
 // I dont have to check (here) if the window is loaded do I?
-if (window.location.pathname == "/sponsor-myanmar-refugees")
+if (window.location.pathname == "/sponsor-myanmar-refugees/")
 {
     var photosDiv = document.getElementById('photosDiv');
 
