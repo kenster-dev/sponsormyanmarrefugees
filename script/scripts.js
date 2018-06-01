@@ -2,7 +2,7 @@
 
 
 // if on the home page:
-if (top.location.pathname === "/index.html")
+if (top.location.pathname === "/")
 {
     var photos = document.getElementById('photos');
 
