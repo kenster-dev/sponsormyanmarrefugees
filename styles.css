@@ -4,6 +4,7 @@ body
 {
     text-align: center;
     padding-top: 150px;
+    color: #36607E;
 }
 
 #homeTopText,
@@ -13,30 +14,67 @@ body
     margin: 0px auto 70px auto;
 }
 
-.navbar-nav .nav-item
+
+.nav-item
 {
-    width: 100px;
+    /* width: 100px; */
     /* border: 1px solid white; */
-    text-align: left;
+    /* text-align: left; */
 }
+
+#overide .navbar-nav button
+{
+    background: #36607E;
+    color: #ffffff;
+    padding: 4px 15px 4px 15px;
+
+    border-radius: 20px;
+}
+
+.navbar a
+{
+    color: grey;
+}
+
+.navbar a.active
+{
+    color: #000000;
+}
+
 
 /******************** HOME PAGE: Kids profiles ********************/
 
+figure
+{
+    /* background: #efefef; */
+    /* color: #ffffff; */
+
+}
+
 img
 {
-    border-radius: 3px;
+    width: 100%;
+    border-radius: 2px;
     margin-bottom: 5px;
     margin-top: 20px;
+    box-shadow: 2px 2px 3px grey;
 }
 
 .personalInfo
 {
     font-size: .8em;
+    padding: 5px;
+
 }
 
 .personalInfo div
 {
     margin-bottom: 10px;
+}
+
+.story
+{
+    margin-top: 10px;
 }
 
 .personalInfo span
@@ -47,9 +85,19 @@ img
 
 .sponsored
 {
-    border: 2px solid green;
+    /* background: #4CAF50; */
+    background: #20bf6b;
+    color: white;
+    display: inline;
+    padding: 5px 9px 5px 9px;
+    border-radius: 2px;
 }
 .unsponsored
 {
-    border: 2px solid red;
+    /* background: #F44336; */
+    background: #ee5253;
+    color: white;
+    display: inline;
+    padding: 5px 9px 5px 9px;
+    border-radius: 2px;
 }
