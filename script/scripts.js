@@ -2,7 +2,7 @@
 
 
 // if on the home page:
-if (top.location.pathname === "/sponsor-myanmar-refugees")
+if (window.location.pathname === "/sponsor-myanmar-refugees")
 {
     var photos = document.getElementById('photos');
 
