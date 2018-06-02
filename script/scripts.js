@@ -3,7 +3,7 @@
 
 // if on the home page:
 // I dont have to check (here) if the window is loaded do I?
-if (window.location.pathname == "/sponsor-myanmar-refugees/")
+if (window.location.pathname == "/sponsormyanmarrefugees")
 {
     var photosDiv = document.getElementById('photosDiv');
 
@@ -54,34 +54,34 @@ var data = [
        story: "She lost her father and her home was damaged by bombs... She was with her mother in the refugee camp. She is at the home now."
      }, {
        id: 1, name: "Cha Li Dwet", age: 14, grade: 8, status: "sponsored",
-       story: "She has parents, she ?lost? one of her younger brothers as they were running from the fighting. Her parents live in the refugee camp."
+       story: "She has parents, one of her younger brothers died as they were running from the fighting. Her parents live in the refugee camp."
      }, {
        id: 2, name: " San San Aye", age: 13, grade: 7, status: "unsponsored",
-       story: "She has both parents but lost all family property in the war so they lived in the refugee camp. Now she came to the home."
+       story: "She has both parents but they lost all family property in the war so they lived in the refugee camp. Now she came to the home."
      }, {
        id: 3, name: "Dar Le Wo", age: 9, grade: 4, status: "sponsored",
        story: "He has parents. Because of the war, they left everything behind and lived in the camp... and he came to the home."
      }, {
        id: 4, name: "Jor Sar Wo", age: 12, grade: "?", status: "unsponsored",
-       story: "Both parents are druggers and he has no hope and peace at home. The war made them hopeless and running away. Now the family is in the camp but he came to the home."
+       story: "Both parents are drug addicts and he has no hope and peace at home. The war made them hopeless and running away. The family is in the camp now, but he came to the home."
      }, {
        id: 5, name: "B Sar", age: 9, grade: 5, status: "unsponsored",
-       story: "Her parents are homeless people. No land or home belong to the family. Now they stay in the refugee camp."
+       story: "Her parents are homeless people. No land or home belong to the family. They stay in the refugee camp."
      }, {
        id: 6, name: "Yaw Aye Mee", age: 13, grade: 8, status: "unsponsored",
-       story: "She was living with her grandmother. When she was 2 years old her parents left her... They had no more contact with her and she stayed in the refugee camp until she came to the home."
+       story: "She was living with her grandmother. When she was 2 years old her parents left her... They had no more contact with her and she stayed in the refugee camp up until the time she came to the home."
      }, {
        id: 7, name: "Ngwa Li Du", age: 13, grade: 8, status: "unsponsored",
-       story: "Father lost in war... and she was with her mom  ...very poor."
+       story: "She lost her father in the war... and she was with her mom  ...very poor."
      }, {
        id: 8, name: "Du Du Lay", age: 12, grade: 7, status: "unsponsored",
-       story: "She has parents but they are very poor... now even their home was damaged by bombs in the war."
+       story: "She has parents but they are very poor... their home was damaged by bombs in the war."
      }, {
        id: 9, name: " J Chit Oo", age: 8, grade: 3, status: "unsponsored",
        story: "He grew up in wars... always running place to place. He lost his parents. He has been hurt a lot by the war... emotionally. He said: 'When I grow up... I will fight back those people who killed my parents as revenge!'"
      }, {
        id: 10, name: "Ah phu kyaw", age: 14, grade: 9, status: "unsponsored",
-       story: "Both parents are dealers of drugs... hopeless conditions... depression due to wars. He was staying in the refugee camp. He is needing help for education and stay safety home."
+       story: "Both parents are dealers of drugs... hopeless conditions... depression due to the war. He was staying in the refugee camp."
      }, {
        id: 11, name: "Je Jaime", age: 13, grade: 8, status: "unsponsored",
        story: "He lost his father in the war... the family stays in the refugee camp. They have three other kids."
@@ -90,51 +90,51 @@ var data = [
        story: "He is an orphan... he lived with his grandmother who is too old, then stayed in the refugees camp. He is at the home now."
      }, {
        id: 13, name: "Myo kyaw san", age: 7, grade: "?", status: "unsponsored",
-       story: "Parents were killed by jungle army... they were left over... they stayed in the refugee camp before they came to the home.",
+       story: "His parents were killed by the jungle army... they were left over... they stayed in the refugee camp before they came to the home.",
        siblings: "Myo kyaw ko, Du Mar Sa"
      }, {
        id: 14, name: "Myo kyaw ko", age: 7, grade: "?", status: "unsponsored",
-       story: "Parents were killed by jungle army... they were left over... they stayed in the refugee camp before they came to the home.",
+       story: "His parents were killed by the jungle army... they were left over... they stayed in the refugee camp before they came to the home.",
        siblings: "Myo kyaw san, Du Mar Sa"
      }, {
        id: 15, name: "Du Mar Sa", age: 5, grade: "?", status: "unsponsored",
-       story: "Little girl is their sister, the only one they have. Parents are killed by jungle army.... they were left over... they stayed in the refugee camp before they came to the home.",
+       story: "Her parents are killed by the jungle army.... they were left over... they stayed in the refugee camp before they came to the home.",
        siblings: "Myo kyaw ko, Myo kyaw san"
      }, {
        id: 16, name: "Are Phuo Dor", age: 10, grade: 6, status: "unsponsored",
-       story: "He and his younger sister are in the refugee camp.  Their parents both died in the war by bombs.",
+       story: "He and his younger sister stayed in the refugee camp before coming to the home. Their parents both died from the bombs.",
        siblings: "Mee San"
      }, {
        id: 17, name: "Mee San", age: 8, grade: 4, status: "unsponsored",
-       story: "She and her older brother are in the refugee camp.  Their parents both died in the war by bombs.",
+       story: "She and her older brother stayed in the refugee camp before coming to the home.  Their parents both died from the bombs.",
        siblings: "Are Phuo Dor"
      }, {
        id: 18, name: "Yae Li Say", age: 6, grade: 2, status: "unsponsored",
-       story: "Refugee family... running for life free from wars... Father is drugs drinker... so hopeless the boys life and future.",
+       story: "His family are refugees... the father is a drug addict.",
        siblings: "Dee Li Say"
      }, {
        id: 19, name: "Dee Li Say", age: 8, grade: 4, status: "unsponsored",
-       story: "Refugee family... running for life free from wars... Father is drugs drinker... so hopeless the boys life and future.",
+       story: "His family are refugees... the father is a drug addict.",
        siblings: "Yae Li Say"
      }, {
        id: 20, name: "Gwa Yet", age: 9, grade: 5, status: "unsponsored",
-       story: "They are refugees... father drugger. Divorced mother has 5 children and she cannot take care of the kids anymore...no support from the government and father",
+       story: "They are refugees... the father is a drug addict. Divorced mother has 5 children and she cannot take care of the kids anymore...no support from the government or the father.",
        siblings: "Nyi Nyi"
      }, {
        id: 21, name: "Nyi Nyi", age: 8, grade: 3, status: "unsponsored",
-       story: "They are refugees... father drugger. Divorced mother has 5 children and she cannot take care of the kids anymore...no support from the government and father",
+       story: "They are refugees... the father is a drug addict. Divorced mother has 5 children and she cannot take care of the kids anymore...no support from the government or the father.",
        siblings: "Gwa Yet"
      }, {
        id: 22, name: "Ngwa Mee Shew", age: 13, grade: 7, status: "unsponsored",
-       story: "Father drug dealer. Mother and the children were staying in the refugee camp. Now they are here at the children's home.",
+       story: "Her father is a drug dealer. The mother and the children were staying in the refugee camp. Now the children are here at the home.",
        siblings: "Ngwa Marry, Ngwa Li Dwe"
      }, {
        id: 23, name: "Ngwa Marry", age: 10, grade: 5, status: "unsponsored",
-       story: "Father drug dealer. Mother and the children were staying in the refugee camp. Now they are here at the children's home.",
+       story: "Her father is a drug dealer. The mother and the children were staying in the refugee camp. Now the children are here at the home.",
        siblings: "Ngwa Mee Shaw, Ngwa Li Dwe"
      }, {
        id: 24, name: "Ngwa Li Dwe", age: 8, grade: 3, status: "unsponsored",
-       story: "Father drug dealer. Mother and the children were staying in the refugee camp. Now they are here at the children's home.",
+       story: "His father is a drug dealer. The mother and the children were staying in the refugee camp. Now the children are here at the home.",
        siblings: "Ngwa Mee Shaw, Ngwa Marry"
      }, {
        id: 25, name: "Naw Sar Dwe", age: 12, grade: 7, status: "unsponsored",
@@ -144,13 +144,13 @@ var data = [
        story: "She lost both parents in the war. She had been staying at the refugee camp."
      }, {
        id: 27, name: "Aung Moe Sa", age: 7, grade: 3, status: "unsponsored",
-       story: "Due to the war, both father and mother left him alone... now he is refugee boy."
+       story: "Due to the war, both father and mother left him alone... now he is a refugee boy."
      }, {
        id: 28, name: "Dee Bo Sa", age: 11, grade: 4, status: "unsponsored",
        story: "he has parents, but the war made them homeless, and now the family is living in the refugee camp."
      }, {
        id: 29, name: "Ngwa Che Pi", age: 8, grade: 4, status: "unsponsored",
-       story: "He has parents and ?live in refugee camp?... running away from wars."
+       story: "He has parents and they live in the refugee camp... it's in the jungle and isn't safe from the fighting"
      }, {
        id: 30, name: "Sa Li Dwet", age: 11, grade: 5, status: "unsponsored",
        story: "Parents died in the war, and he had been livng with his older sister in the refugee camp."
@@ -188,21 +188,21 @@ var data = [
        story: "She has parents, but they lost everything in the war. She was living in the refugee camp, and then came to children house."
      }, {
        id: 41, name: "David", age: 9, grade: 2, status: "unsponsored",
-       story: "His Mother died in the war and his father is drugs drinker... No care for this boy... he was left over. Now he came to the home."
+       story: "His Mother died in the war and his father is a drug addict..."
      }, {
        id: 42, name: "Ku Mar Sar", age: 7, grade: 2, status: "unsponsored",
-       story: "Her father is drugs drinker and doesn't help the family... he is depressed because of the war... now in the refugee camp but this girl came to children's home.",
+       story: "Her father is a drug addict and doesn't help the family... he is depressed because of the war... he is in the refugee camp now, but this girl came to the home",
        siblings: "Mee Nu Lay"
      }, {
        id: 43, name: "Mee Nu Lay", age: 9, grade: 5, status: "unsponsored",
-       story: "Her father is drugs drinker and doesn't help the family... he is depressed because of the war... now in the refugee camp but this girl came to children's home.",
+       story: "Her father is a drug addict and doesn't help the family... he is depressed because of the war... he is in the refugee camp now, but this girl came to the home",
        siblings: "Ku Mar Sar"
      }, {
        id: 44, name: "Jar Aung", age: 5, grade: 1, status: "unsponsored",
        story: "Her Father is in prison... and her family is in the refugee camp."
      }, {
        id: 45, name: "Bi S", age: 10, grade: 5, status: "unsponsored",
-       story: "She has parents, but their village was burned. She is at the home safely now."
+       story: "She has parents, but their village was bombed and burned down. She is at the home safely now."
      }, {
        id: 46, name: "Naa Li Sar", age: 14, grade: 8, status: "unsponsored",
        story: "She has parents, but the war made them run for their lives... She came to the home."
@@ -222,8 +222,8 @@ var data = [
        id: 51, name: "Rebecca", age: 10, grade: 5, status: "unsponsored",
        story: "Her father died in the war and her mother is in the refugee camp, and now she is at the home."
      }, {
-       id: 52, name: "Lay Mel Sar", age: 5, status: "unsponsored",
-       story: "Father died from drugs... he was depressed because of the war. Their village was bombed... now the family is staying at the refugee camp."
+       id: 52, name: "Lay Mel Sar", age: 5, grade: "?", status: "unsponsored",
+       story: "His father died from drugs... he was depressed because of the war. Their village was bombed... now the family is staying at the refugee camp."
      }, {
        id: 53, name: "Jay Zar PhiHe", age: 11, grade: 5, status: "unsponsored",
        story: "He has parents, Their village was bombed and they lost everything."
@@ -247,10 +247,10 @@ var data = [
        story: "He has parents, but they had to run from the war. The family was separated by the war... and the boy came to the home."
      }, {
        id: 60, name: "Sa Fu Dwet", age: 11, grade: 5, status: "unsponsored",
-       story: "He has parents, but their village was burned in the war."
+       story: "He has parents, but their village was bombed and burned in the war."
      }, {
        id: 61, name: "Ngwa Ti Ni", age: 12, grade: 7, status: "unsponsored",
-       story: "His family ran to the refugee camp because their village was burned in the war."
+       story: "His family ran to the refugee camp because their village was bombed and burned."
      }, {
        id: 62, name: "Nyi Sa Het", age: 11, grade: 5, status: "unsponsored",
        story: "She had parents, but the war made them run to the refugee camp. And two of her sisters died. Now she is here at the home."
@@ -261,17 +261,17 @@ var data = [
        id: 64, name: "Ngwa Mar Nu", age: 13, grade: 7, status: "unsponsored",
        story: "Her family ran to the refugee camp due to the fighting... and she came to the home."
      }, {
-       id: 65, name: "Ju Li Nar", age: 13, grade: 7, status: "unsponsored",
-       story: "Her family ran to the refugee camp when their village was burned and many of the villagers died. She also lost two of her brothers. Now she has run to life here."
+       id: 65, name: "Jue Li Nar", age: 13, grade: 7, status: "unsponsored",
+       story: "Her family ran to the refugee camp when their village was bombed and many of the villagers died. She also lost two of her brothers."
      }, {
        id: 66, name: "Bor Sar Say", age: 11, grade: 5, status: "unsponsored",
-       story: "One of her sisters was lost in the war, and now the family is in the refugee camp. She ran to the House of Noah."
+       story: "One of her sisters was lost in the war, and now the family is in the refugee camp."
      }, {
        id: 67, name: "Wo Mar Sar", age: 12, grade: 6, status: "unsponsored",
-       story: "She has parents but her father is drugs drinker, and doesn't take care of the family. Her mother is in the refugee camp. She has run to the house of Noah."
+       story: "She has parents but her father is a drug addict, and doesn't take care of the family. Her mother is in the refugee camp."
      }, {
        id: 68, name: "Bya Sar Mee", age: 13, grade: 8, status: "unsponsored",
-       story: "Her family ran to the refugee camp due to the war. ?Their village was borm and many of them died.?"
+       story: "Her family ran to the refugee camp due to the war. Their village was bombed and many of the villagers died."
      }, {
        id: 69, name: "Char Mar Say", age: 11, grade: 7, status: "unsponsored",
        story: " Her father's legs were damaged in the war, and now the family is in the refugee camp."
@@ -283,7 +283,7 @@ var data = [
        story: "?"
      }, {
        id: 72, name: "Gyi Li Ya", age: 12, grade: 7, status: "unsponsored",
-       story: "?The family is staying in the camp. These two are sisters. The same family and now they came to the house of Noah.?"
+       story: "?The family is staying in the camp. These two are sisters. The same family and now they came to the home.?"
      }, {
        id: 73, name: "?", age: 0, grade: 0, status: "unsponsored",
        story: "?"
