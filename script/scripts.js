@@ -3,12 +3,12 @@
 
 // if on the home page:
 // I dont have to check (here) if the window is loaded do I?
-if (window.location.pathname == "/sponsormyanmarrefugees/")
+if (window.location.pathname == "/")
 {
     var photosDiv = document.getElementById('photosDiv');
 
     $(document).ready(function() {
-        for (var i = 0; i < 74; i++)
+        for (var i = 0; i < 73; i++)
         {
             // create the figure and figcaption elements
             var figure = document.createElement('figure');
@@ -53,13 +53,13 @@ var data = [
        id: 0, name: "Char Li", age: 13, grade: 8, status: "unsponsored",
        story: "She lost her father and her home was damaged by bombs... She was with her mother in the refugee camp. She is at the home now."
      }, {
-       id: 1, name: "Cha Li Dwet", age: 14, grade: 8, status: "sponsored",
+       id: 1, name: "Cha Li Dwet", age: 14, grade: 8, status: "unsponsored",
        story: "She has parents, one of her younger brothers died as they were running from the fighting. Her parents live in the refugee camp."
      }, {
        id: 2, name: " San San Aye", age: 13, grade: 7, status: "unsponsored",
        story: "She has both parents but they lost all family property in the war so they lived in the refugee camp. Now she came to the home."
      }, {
-       id: 3, name: "Dar Le Wo", age: 9, grade: 4, status: "sponsored",
+       id: 3, name: "Dar Le Wo", age: 9, grade: 4, status: "unsponsored",
        story: "He has parents. Because of the war, they left everything behind and lived in the camp... and he came to the home."
      }, {
        id: 4, name: "Jor Sar Wo", age: 12, grade: "?", status: "unsponsored",
@@ -280,13 +280,12 @@ var data = [
        story: "His father and mother died in the war and he was living with his grandmother... now he came here to the children's home."
      }, {
        id: 71, name: "C Mi Na", age: 16, grade: 10, status: "unsponsored",
-       story: "?"
+       story: "These two sisters hope their family is safe in the refugee camp, but they don't really know. They were seperated during the war, and the camps aren't safe either.",
+       siblings: "Gyi Li Ya"
      }, {
        id: 72, name: "Gyi Li Ya", age: 12, grade: 7, status: "unsponsored",
-       story: "?The family is staying in the camp. These two are sisters. The same family and now they came to the home.?"
-     }, {
-       id: 73, name: "?", age: 0, grade: 0, status: "unsponsored",
-       story: "?"
+       story: "These two sisters hope their family is safe in the refugee camp, but they don't really know. They were seperated during the war, and the camps aren't safe either.",
+       siblings: "C Mi Na"
      }
 
 ]

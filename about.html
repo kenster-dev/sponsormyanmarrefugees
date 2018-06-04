@@ -13,9 +13,9 @@
 <body id="overide">
 
     <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: #ffffff;">
-        <!-- <a class="navbar-brand" href="/sponsor-myanmar-refugees">Sponsor Myanmar Refugees</a> -->
-        <a class="nav-link" href="/sponsormyanmarrefugees">Home</a>
-        <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link active" href="#">About Us<span class="sr-only">(current)</span></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,25 +23,85 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto">Contact Us</button>
+                <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto contactbtn" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto donatebtn" data-toggle="modal" data-target="#donateModal">Donate</button>
             </div>
         </div>
     </nav>
 
+
+    <!-- Contact modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="contactModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Info</h5>
+                    <!-- close modal button -->
+                    <button type="button" data-toggle="popover" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    Please contact Leann Weaver with any questions: <a href="mailto:'ljoypete@yahoo.com'">ljoypete@yahoo.com</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Donate modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="donateModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Donate</h5>
+                    <!-- close modal button -->
+                    <button type="button" data-toggle="popover" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        You can sponsor a child with a monthly donation, or you can make a one-time donation.
+                    </p>
+                    <div id="sponsorDiv">
+                    <h4>Sponsorships</h4>
+                    <p>
+                        A full sponsorship costs $60 a month. A half sponsorship costs $30. If you are making a monthly donation, please include a note with your child's name, age, and grade along with the first check. <br>
+                        We'd love if you would dedicate to praying especially for your child! <br>
+                        <small>For details on how funds are used, please see the about page.</small>
+                    </p>
+                    </div>
+
+                    <p>
+                        Please send your check to: <br>
+                        495 E Locust St <br>
+                        Wilmington, OH 45177 <br>
+                        Make check payable to: Door of Hope
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid">
+
     <h1>Who are we?</h1>
-    <div id="aboutTopText">
+    <div class="aboutText">
         <p>
-            We are Door of Hope church in Southern Ohio, and a native team in Myanmar who runs a group of Children's Homes. Door of Hope has been working with John Smith in Myanmar for around 10 years, John oversees a number of Children's homes in Myanmar, and he recently built another one for the children displaced in the last wave of violence. Those children are the ones represented on our home page.
+            We are Door of Hope church in Southern Ohio, and a native team in Myanmar who runs a group of Children's Homes. Door of Hope has been working with someone we'll call 'John Smith' in Myanmar for around 10 years, John oversees a number of Children's homes in Myanmar, and he recently built another one for the children displaced in the last wave of violence. Those children are the ones represented on our home page.
         </p>
-        <p>
-            We don't have a streamlined, professional payment system, for now, we are doing this manually, so if you can help in any way, please contact us on how to send money to Myanmar.
-        </p>
+        <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto contactbtn" data-toggle="modal" data-target="#contactModal">Contact Us</button>
     </div>
 
     <!-- Stateside people profiles -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container-fluid">
-            <h2 class="display-4">Stateside</h2>
+        <div id="aboutStateside">
+            <h2>Stateside</h2>
             <div class="row">
                 <figure class="col-4">
                     <img src="images/staff/doh.jpg" alt="" width="120">
@@ -49,20 +109,19 @@
                 </figure>
                 <figure class="col-4">
                     <img src="images/staff/leann.jpg" alt="" width="120">
-                    <figcaption>Leann Weaver. You will talk to her if you contact us to make a donation.</figcaption>
+                    <figcaption>Leann Weaver. You will talk to her if you contact us with any questions.</figcaption>
                 </figure>
                 <figure class="col-4">
                     <img src="images/staff/kenny.jpg" alt="" width="120">
-                    <figcaption>I'm Kenny, I made this page. I first met John in Myanmar in the spring of 2017 when I traveled there with a few other guys to help with a small building project.</figcaption>
+                    <figcaption>I'm Kenny, I made this page because I've personally spent time with the team in Myanmar and I belive in what they're doing.</figcaption>
                 </figure>
             </div>
         </div>
-    </div>
 
     <!-- Myanmar staff profiles -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container-fluid">
-            <h2 class="display-4">Myanmar</h2>
+        <div id="aboutMyanmar">
+            <h2>Myanmar</h2>
+            <h6>These are the staff running the newest children's home in Northern Myanmar.</h6>
             <div class="row">
                 <figure class="col-4">
                     <img src="images/staff/pastor.jpg" alt="" width="120">
@@ -74,11 +133,30 @@
                 </figure>
                 <figure class="col-4">
                     <img src="images/staff/staff2.jpg" alt="" width="120">
-                    <figcaption>Nyi Che Sar.<br> She is from the home in Yangon… now she will serve the children.</figcaption>
+                    <figcaption>Nyi Che Sar.<br> She is from the home in Yangon.</figcaption>
                 </figure>
             </div>
         </div>
+
+
+
+    <h1>How are the funds used?</h1>
+    <div class="aboutText">
+        <p>
+            100% of all donations are sent to Myanmar, we do not take out any percentages. Any donations you make will go to the children's home for whatever expenses they see fit. All of the children will benefit equally, the child you choose to sponsor will not recieve extra food or clothing while their friends get nothing. We see this as the only way to keep it fair. We do love it if you pray especially for the child you are sponsoring, and you are welcome to send gifts or letters to him/her if we can find someone to take the package to Myanmar.
+        </p>
+        <p>
+            If you have any further questions, or if you want to send a gift, please get in touch, and we'll be happy to help in any way we can.
+        </p>
     </div>
+
+
+
+    </div>
+
+
+
+
 
 
 

@@ -15,9 +15,9 @@
 
 
     <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: #ffffff;">
-        <!-- <a class="navbar-brand" href="#">Sponsor Myanmar Refugees</a> -->
+
         <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="/sponsormyanmarrefugees/about.html">About</a>
+        <a class="nav-link" href="/about.html">About Us</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,22 +25,81 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto">Contact Us</button>
+                <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto contactbtn" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto donatebtn" data-toggle="modal" data-target="#donateModal">Donate</button>
             </div>
         </div>
     </nav>
 
 
-    <!-- <img src="images/refugees.jpg" width="100%"> -->
+    <!-- Contact modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="contactModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Info</h5>
+                    <!-- close modal button -->
+                    <button type="button" data-toggle="popover" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    Please contact Leann Weaver with any questions: <a href="mailto:'ljoypete@yahoo.com'">ljoypete@yahoo.com</a>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Donate modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="donateModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Donate</h5>
+                    <!-- close modal button -->
+                    <button type="button" data-toggle="popover" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        You can sponsor a child with a monthly donation, or you can make a one-time donation.
+                    </p>
+                    <div id="sponsorDiv">
+                    <h4>Sponsorships</h4>
+                    <p>
+                        A full sponsorship costs $60 a month. A half sponsorship costs $30. If you are making a monthly donation, please include a note with your child's name, age, and grade along with the first check. <br>
+                        We'd love if you would dedicate to praying especially for your child! <br>
+                        <small>For details on how funds are used, please see the about page.</small>
+                    </p>
+                    </div>
+
+                    <p>
+                        Please send your check to: <br>
+                        495 E Locust St <br>
+                        Wilmington, OH 45177 <br>
+                        Make check payable to: Door of Hope
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="container-fluid" id="main">
         <h1>Sponsor Myanmar Refugees</h1>
-        <div id="homeTopText">
+        <div id="homeWelcome">
             <p>
-                Welcome to our page, we are from a small church in Southern Ohio that helps support a group of chilren's homes in Myanmar. The photos below represent the lives of 74 children from Northern Myanmar who are victims of recent clashes between the National military and local groups. These types of clashes happen constantly in this area, and it's innocent children like these who are the most vulnerable.
+                Welcome to our page, we are from a small church in Southern Ohio that helps support a group of chilren's homes in Myanmar. The photos below represent the lives of 73 children from Northern Myanmar who are victims of recent clashes between the National military and local groups. These types of clashes happen constantly in this area, and it's innocent children like these who are the most vulnerable.
             </p>
             <p>
-                The team in Myanmar was able to build a new building for this group of kids, and <span>all of them are currently at the home</span>, but they still need sponsors, and that's where you can help! Please contact us if you can make a one time or monthly donation.
+                The team in Myanmar was able to build a new building for this group of kids, and <span>all of them are currently at the home</span>, but they still need sponsors, and that's where you can help!
+                A full sponsorship is $60 per month, and a half sponsorship is $30. You can choose one of these monthly amounts, or make a one time donation.
             </p>
+
+            <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto donatebtn" data-toggle="modal" data-target="#donateModal">Donate</button>
 
         </div>
 
