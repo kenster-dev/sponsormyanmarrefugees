@@ -62,7 +62,12 @@ h1
     margin: auto;
     border: 2px solid #36607E;
     border-radius: 20px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+}
+
+.navbar-nav span
+{
+    width: 20px;
 }
 
 .navbar a
