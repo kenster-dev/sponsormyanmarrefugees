@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"> <!-- required by Bootstrap -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no"> <!-- required by Bootstrap -->
 
     <!-- Bootstrap and my own CSS -->
@@ -12,15 +12,14 @@
 </head>
 <body id="overide">
 
-    <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: #ffffff;">
 
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: #ffffff;">
         <a class="nav-link" href="/">Home</a>
         <a class="nav-link active" href="#">About Us<span class="sr-only">(current)</span></a>
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto contactbtn" data-toggle="modal" data-target="#contactModal">Contact Us</button>
@@ -43,13 +42,12 @@
                     </button>
                 </div>
                 <div class="modal-body">
-
                     Please contact Leann Weaver with any questions: <a href="mailto:'ljoypete@yahoo.com'">ljoypete@yahoo.com</a>
+                </div> <!-- modal-body -->
+            </div> <!-- modal-content -->
+        </div> <!-- modal-dialog -->
+    </div> <!-- modal -->
 
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Donate modal -->
     <div class="modal fade" tabindex="-1" role="dialog" id="donateModal">
@@ -63,16 +61,14 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>
-                        You can sponsor a child with a monthly donation, or you can make a one-time donation.
-                    </p>
+                    <p>You can sponsor a child with a monthly donation, or you can make a one-time donation.</p>
                     <div id="sponsorDiv">
-                    <h4>Sponsorships</h4>
-                    <p>
-                        A full sponsorship costs $60 a month. A half sponsorship costs $30. If you are making a monthly donation, please include a note with your child's name, age, and grade along with the first check. <br>
-                        We'd love if you would dedicate to praying especially for your child! <br>
-                        <small>For details on how funds are used, please see the about page.</small>
-                    </p>
+                        <h4>Sponsorships</h4>
+                        <p>
+                            A full sponsorship costs $60 a month. A half sponsorship costs $30. If you are making a monthly donation, please include a note with your child's name, age, and grade along with the first check. <br>
+                            We'd love if you would dedicate to praying especially for your child! <br>
+                            <small>For details on how funds are used, please see the about page.</small>
+                        </p>
                     </div>
 
                     <p>
@@ -81,83 +77,76 @@
                         Wilmington, OH 45177 <br>
                         Make check payable to: Door of Hope
                     </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+                </div> <!-- modal-body -->
+            </div> <!-- modal-content -->
+        </div> <!-- modal-dialog -->
+    </div> <!-- modal -->
 
 
     <div class="container-fluid">
 
-    <h1>Who are we?</h1>
-    <div class="aboutText">
-        <p>
-            We are Door of Hope church in Southern Ohio, and a native team in Myanmar who runs a group of Children's Homes. Door of Hope has been working with someone we'll call 'John Smith' in Myanmar for around 10 years, John oversees a number of Children's homes in Myanmar, and he recently built another one for the children displaced in the last wave of violence. Those children are the ones represented on our home page.
-        </p>
-        <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto contactbtn" data-toggle="modal" data-target="#contactModal">Contact Us</button>
-    </div>
+        <!-- who are we info -->
+        <h1>Who are we?</h1>
+        <div class="aboutText">
+            <p>
+                We are Door of Hope church in Southern Ohio, and a native team in Myanmar who runs a group of Children's Homes. Door of Hope has been working with someone we'll call 'John Smith' in Myanmar for around 10 years, John oversees a number of Children's homes in Myanmar, and he recently built another one for the children displaced in the last wave of violence. Those children are the ones represented on our home page.
+            </p>
+            <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto contactbtn" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+        </div>
 
-    <!-- Stateside people profiles -->
+
+        <!-- Stateside people profiles -->
         <div id="aboutStateside">
             <h2>Stateside</h2>
             <div class="row">
                 <figure class="col-4">
                     <img src="images/staff/doh.jpg" alt="" width="120">
-                    <figcaption>Door of Hope Church in Wilmington, Ohio.</figcaption>
+                    <figcaption class="staffInfo">Door of Hope Church in Wilmington, Ohio.</figcaption>
                 </figure>
                 <figure class="col-4">
                     <img src="images/staff/leann.jpg" alt="" width="120">
-                    <figcaption>Leann Weaver. You will talk to her if you contact us with any questions.</figcaption>
+                    <figcaption class="staffInfo">Steve and Leann Weaver. You will talk to Leann if you contact us with any questions.</figcaption>
                 </figure>
                 <figure class="col-4">
                     <img src="images/staff/kenny.jpg" alt="" width="120">
-                    <figcaption>I'm Kenny, I made this page because I've personally spent time with the team in Myanmar and I belive in what they're doing.</figcaption>
+                    <figcaption class="staffInfo">I'm Kenny. I made this page because I've personally spent time with the team in Myanmar and I believe in the work they're doing!</figcaption>
                 </figure>
             </div>
         </div>
 
-    <!-- Myanmar staff profiles -->
+
+        <!-- Myanmar staff profiles -->
         <div id="aboutMyanmar">
             <h2>Myanmar</h2>
-            <h6>These are the staff running the newest children's home in Northern Myanmar.</h6>
+            <div>These are the staff running the newest children's home in Northern Myanmar.</div>
             <div class="row">
                 <figure class="col-4">
                     <img src="images/staff/pastor.jpg" alt="" width="120">
-                    <figcaption>Philip Mk. Age: 38.<br> The pastor for the children's home. His wife's name is Nyi Thew, and they have four kids.</figcaption>
+                    <figcaption class="staffInfo">Philip Mk. Age: 38.<br> The pastor for the children's home. His wife's name is Nyi Thew, and they have four kids.</figcaption>
                 </figure>
                 <figure class="col-4">
                     <img src="images/staff/staff1.jpg" alt="" width="120">
-                    <figcaption>Ah Cha thew.<br> She is going to be on staff at the children’s home</figcaption>
+                    <figcaption class="staffInfo">Ah Cha thew.<br> She is going to be on staff at the children’s home</figcaption>
                 </figure>
                 <figure class="col-4">
                     <img src="images/staff/staff2.jpg" alt="" width="120">
-                    <figcaption>Nyi Che Sar.<br> She is from the home in Yangon.</figcaption>
+                    <figcaption class="staffInfo">Nyi Che Sar.<br> She is from the home in Yangon.</figcaption>
                 </figure>
             </div>
         </div>
 
 
-
-    <h1>How are the funds used?</h1>
-    <div class="aboutText">
-        <p>
-            100% of all donations are sent to Myanmar, we do not take out any percentages, and your contribution is tax deductible. Any donations you make will go to the children's home for whatever expenses they see fit. All of the children will benefit equally, the child you choose to sponsor will not recieve extra food or clothing while their friends get nothing. We see this as the only way to keep it fair. We do love it if you pray especially for the child you are sponsoring, and you are welcome to send gifts or letters to him/her if we can find someone to take the package to Myanmar.
-        </p>
-        <p>
-            If you have any further questions, or if you want to send a gift, please get in touch, and we'll be happy to help in any way we can.
-        </p>
+        <!-- funds info paragraph -->
+        <h1>How are the funds used?</h1>
+        <div class="aboutText">
+            <p>
+                100% of all donations are sent to Myanmar, we do not take out any percentages, and your contribution is tax deductible. Any donations you make will go to the children's home for whatever expenses they see fit. All of the children will benefit equally, the child you choose to sponsor will not recieve extra food or clothing while their friends get nothing. We see this as the only way to keep it fair. We do love it if you pray especially for the child you are sponsoring, and you are welcome to send gifts or letters to him/her if we can find someone to take the package to Myanmar.
+            </p>
+            <p>
+                If you have any further questions, or if you want to send a gift, please get in touch, and we'll be happy to help in any way we can!
+            </p>
+        </div>
     </div>
-
-
-
-    </div>
-
-
-
-
 
 
 
@@ -167,6 +156,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="script/scripts.js"></script>
-    <!-- <script src="data.json"></script> -->
 </body>
 </html>

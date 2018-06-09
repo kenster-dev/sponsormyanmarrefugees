@@ -13,6 +13,7 @@ h1
     color: #36607E;
 }
 
+/* all the paragraphs of text */
 #homeWelcome,
 .aboutText
 {
@@ -20,11 +21,13 @@ h1
     margin: 0px auto 70px auto;
 }
 
+/* paragraph on the home page */
 #homeWelcome span
 {
     text-decoration: underline;
 }
 
+/* paragraphs on the about page */
 #aboutMyanmar
 {
     margin-bottom: 70px;
@@ -45,6 +48,7 @@ h1
     box-shadow: 0px 1px 10px #e8e8e8;
 }
 
+/* donate button */
 #overide .donatebtn
 {
     background: #36607E;
@@ -54,6 +58,7 @@ h1
     border-radius: 20px;
 }
 
+/* contact button */
 #overide .contactbtn
 {
     background: #ffffff;
@@ -62,35 +67,34 @@ h1
     margin: auto;
     border: 2px solid #36607E;
     border-radius: 20px;
-    /* margin-right: 20px; */
 }
 
+/* seperation between donate and contact buttons */
 .navbar-nav span
 {
     width: 20px;
 }
 
+/* all links in the navbar */
 .navbar a
 {
     color: grey;
 }
-
 .navbar a.active,
 .navbar a:hover
 {
     color: #204E70;
 }
 
+/* navbar toggler */
 .navbar-toggler
 {
     border-style: none;
 }
-
 .navbar-toggler:hover
 {
     border: 1px solid #e8e8e8;
 }
-
 .navbar-toggler:focus
 {
     outline: 0;
@@ -114,32 +118,35 @@ img
     box-shadow: 2px 2px 3px grey;
 }
 
+/* figcaption element */
 .personalInfo
 {
     font-size: .8em;
     padding: 5px;
-
 }
 
+/* nested divs */
 .personalInfo div
 {
     margin-bottom: 10px;
 }
 
-.story
-{
-    margin-top: 10px;
-}
-
+/* nested span */
 .personalInfo span
 {
     margin-left: 5px;
     margin-right: 5px;
 }
 
+/* the story div */
+.story
+{
+    margin-top: 10px;
+}
+
+/* colored status */
 .sponsored
 {
-    /* background: #4CAF50; */
     background: #20bf6b;
     color: white;
     display: inline;
@@ -148,7 +155,6 @@ img
 }
 .unsponsored
 {
-    /* background: #F44336; */
     background: #ee5253;
     color: white;
     display: inline;
@@ -161,16 +167,16 @@ img
 
 /******************** ABOUT PAGE: Staff Profiles ********************/
 
-.jumbotron figcaption
+/* the figcaptions on the about page */
+.staffInfo
 {
-    font-size: .85em;
+    font-size: .8em;
 }
 
 
 
 
 /******************** Modals ********************/
-
 
 #sponsorDiv
 {

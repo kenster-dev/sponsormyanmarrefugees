@@ -2,12 +2,12 @@
 
 
 // if on the home page:
-// I dont have to check (here) if the window is loaded do I?
 if (window.location.pathname == "/")
 {
     var photosDiv = document.getElementById('photosDiv');
 
     $(document).ready(function() {
+        // for each kid: create a figure element with a photo and personal info
         for (var i = 0; i < 73; i++)
         {
             // create the figure and figcaption elements
@@ -15,10 +15,6 @@ if (window.location.pathname == "/")
             figure.classList.add('col-6', 'col-sm-4', 'col-md-3');
             var figcaption = document.createElement('figcaption');
             figcaption.classList.add('personalInfo');
-
-            // create an image element and set it's source
-            var image = new Image();
-            image.src = `images/kids/${i}.jpg`;
 
             // construct the personal info for each child
             var content = `<h5> ${data[i]['name']} </h5>
@@ -30,10 +26,26 @@ if (window.location.pathname == "/")
             // insantiate the personal info into the figcaption
             figcaption.innerHTML = content;
 
+            // create an image element and set it's source
+            var image = new Image();
+            image.src = `images/kids/${i}.jpg`;
+
             // combine all the elements and data into a figure, add the figure element to the div
             figure.appendChild(image);
             figure.appendChild(figcaption);
             photosDiv.appendChild(figure);
+
+            // here's an example of the finished product:
+            // <figure class='col-6 col-sm-4 col-md-3'>
+            //     <img>
+            //     <figcaption class="personalInfo">
+            //         <h5>Name</h5>
+            //         <div>Age: <span></span> Grade:</div>
+            //         <div class="unsponsored">unsponsored</div>
+            //         <div class="story">Story</div>
+            //         the siblings line is only inserted here if that property exists in the json
+            //     </figcaption>
+            // </figure>
 
         }
     });
@@ -47,7 +59,7 @@ if (window.location.pathname == "/")
 
 
 
-
+// personal info for each of the kids
 var data = [
      {
        id: 0, name: "Char Li", age: 13, grade: 8, status: "unsponsored",
@@ -83,7 +95,7 @@ var data = [
        id: 10, name: "Ah phu kyaw", age: 14, grade: 9, status: "unsponsored",
        story: "Both parents are dealers of drugs... hopeless conditions... depression due to the war. He was staying in the refugee camp."
      }, {
-       id: 11, name: "Je Jaime", age: 13, grade: 8, status: "unsponsored",
+       id: 11, name: "Je Jaime", age: 13, grade: 8, status: "sponsored",
        story: "He lost his father in the war... the family stays in the refugee camp. They have three other kids."
      }, {
        id: 12, name: "Jay Si Pha", age: 12, grade: 7, status: "unsponsored",
