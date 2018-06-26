@@ -109,7 +109,7 @@ var data = [
        story: "His parents were killed by the jungle army... they were left over... they stayed in the refugee camp before they came to the home.",
        siblings: "Myo kyaw san, Du Mar Sa"
      }, {
-       id: 15, name: "Du Mar Sa", age: 5, grade: "?", status: "unsponsored",
+       id: 15, name: "Du Mar Sa", age: 5, grade: "?", status: "sponsored",
        story: "Her parents are killed by the jungle army.... they were left over... they stayed in the refugee camp before they came to the home.",
        siblings: "Myo kyaw ko, Myo kyaw san"
      }, {
