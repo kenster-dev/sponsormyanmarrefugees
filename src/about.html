@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no"> <!-- required by Bootstrap -->
+
+    <!-- Bootstrap and my own CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+
+    <title>Sponsor Myanmar Refugees</title>
+</head>
+<body id="overide">
+
+
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: #ffffff;">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link active" href="#">About Us<span class="sr-only">(current)</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto contactbtn" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                <span></span>
+                <button type="button" class="btn mt-2 mb-2 mb-sm-auto mt-sm-auto donatebtn" data-toggle="modal" data-target="#donateModal">Donate</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Contact modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="contactModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Info</h5>
+                    <!-- close modal button -->
+                    <button type="button" data-toggle="popover" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Please contact Leann Weaver with any questions: <a href="mailto:'ljoypete@yahoo.com'">ljoypete@yahoo.com</a>
+                </div> <!-- modal-body -->
+            </div> <!-- modal-content -->
+        </div> <!-- modal-dialog -->
+    </div> <!-- modal -->
+
+
+    <!-- Donate modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="donateModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Donate</h5>
+                    <!-- close modal button -->
+                    <button type="button" data-toggle="popover" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>You can sponsor a child with a monthly donation, or you can make a one-time donation.</p>
+                    <div id="sponsorDiv">
+                        <h4>Sponsorships</h4>
+                        <p>
+                            A full sponsorship costs $60 a month. A half sponsorship costs $30. If you are making a monthly donation, please include a note with your child's name, age, and grade along with the first check. <br>
+                            We'd love if you would dedicate to praying especially for your child! <br>
+                            <small>For details on how funds are used, please see the about page.</small>
+                        </p>
+                    </div>
+
+                    <p>
+                        Please send your check to: <br>
+                        495 E Locust St <br>
+                        Wilmington, OH 45177 <br>
+                        Make check payable to: Door of Hope
+                    </p>
+                </div> <!-- modal-body -->
+            </div> <!-- modal-content -->
+        </div> <!-- modal-dialog -->
+    </div> <!-- modal -->
+
+
+    <div class="container-fluid">
+
+        <!-- who are we info -->
+        <h1>Who are we?</h1>
+        <div class="aboutText">
+            <p>
+                We are Door of Hope church in Southern Ohio, and a native team in Myanmar who runs a group of Children's Homes. Door of Hope has been working with someone we'll call 'John Smith' in Myanmar for around 10 years, John oversees a number of Children's homes in Myanmar, and he recently built another one for the children displaced in the last wave of violence. Those children are the ones represented on our home page.
+            </p>
+            <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto contactbtn" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+        </div>
+
+
+        <!-- Stateside people profiles -->
+        <div id="aboutStateside">
+            <h2>Stateside</h2>
+            <div class="row">
+                <figure class="col-4">
+                    <img src="images/staff/doh.jpg" alt="" width="120">
+                    <figcaption class="staffInfo">Door of Hope Church in Wilmington, Ohio.</figcaption>
+                </figure>
+                <figure class="col-4">
+                    <img src="images/staff/leann.jpg" alt="" width="120">
+                    <figcaption class="staffInfo">Steve and Leann Weaver. You will talk to Leann if you contact us with any questions.</figcaption>
+                </figure>
+                <figure class="col-4">
+                    <img src="images/staff/kenny.jpg" alt="" width="120">
+                    <figcaption class="staffInfo">I'm Kenny. I made this page because I've personally spent time with the team in Myanmar and I believe in the work they're doing!</figcaption>
+                </figure>
+            </div>
+        </div>
+
+
+        <!-- Myanmar staff profiles -->
+        <div id="aboutMyanmar">
+            <h2>Myanmar</h2>
+            <div>These are the staff running the newest children's home in Northern Myanmar.</div>
+            <div class="row">
+                <figure class="col-4">
+                    <img src="images/staff/pastor.jpg" alt="" width="120">
+                    <figcaption class="staffInfo">Philip Mk. Age: 38.<br> The pastor for the children's home. His wife's name is Nyi Thew, and they have four kids.</figcaption>
+                </figure>
+                <figure class="col-4">
+                    <img src="images/staff/staff1.jpg" alt="" width="120">
+                    <figcaption class="staffInfo">Ah Cha thew.<br> She is going to be on staff at the children’s home</figcaption>
+                </figure>
+                <figure class="col-4">
+                    <img src="images/staff/staff2.jpg" alt="" width="120">
+                    <figcaption class="staffInfo">Nyi Che Sar.<br> She is from the home in Yangon.</figcaption>
+                </figure>
+            </div>
+        </div>
+
+
+        <!-- funds info paragraph -->
+        <h1>How are the funds used?</h1>
+        <div class="aboutText">
+            <p>
+                100% of all donations are sent to Myanmar, we do not take out any percentages, and your contribution is tax deductible. Any donations you make will go to the children's home for whatever expenses they see fit. All of the children will benefit equally, the child you choose to sponsor will not recieve extra food or clothing while their friends get nothing. We see this as the only way to keep it fair. We do love it if you pray especially for the child you are sponsoring, and you are welcome to send gifts or letters to him/her if we can find someone to take the package to Myanmar.
+            </p>
+            <p>
+                If you have any further questions, or if you want to send a gift, please get in touch, and we'll be happy to help in any way we can!
+            </p>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap jQuery, Bootstrap Popper.js, Bootstrap Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
