@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no"> <!-- required by Bootstrap -->
+
+    <!-- Bootstrap and my own CSS -->
+    <link rel="stylesheet" href="./lib/bootstrap_4-0-0/css/bootstrap.min.css">
+    <link href="./static/styles.css" rel="stylesheet">
+
+    <title>Sponsor Myanmar Refugees</title>
+</head>
+<body id="overide">
+
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: #ffffff;">
+        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/about">About Us</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto contactbtn" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                <span></span>
+                <button type="button" class="btn mt-2 mb-2 mb-sm-auto mt-sm-auto donatebtn" data-toggle="modal" data-target="#donateModal">Donate</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Contact modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="contactModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Info</h5>
+                    <!-- close modal button -->
+                    <button type="button" data-toggle="popover" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Please contact Leann Weaver with any questions: <a href="mailto:'ljoypete@yahoo.com'">ljoypete@yahoo.com</a>
+                    <br><br>
+                </div> <!-- modal-body -->
+            </div> <!-- modal-content -->
+        </div> <!-- modal-dialog -->
+    </div> <!-- modal -->
+
+
+    <!-- Donate modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="donateModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Donate</h5>
+                    <!-- close modal button -->
+                    <button type="button" data-toggle="popover" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>You can sponsor a child with a monthly donation, or you can make a one-time donation.</p>
+                    <div id="sponsorDiv">
+                    <h4>Sponsorships</h4>
+                    <p>
+                        A full sponsorship costs $60 a month. A half sponsorship costs $30. If you are making a monthly donation, please include a note with your child's name, age, and grade along with the first check. <br>
+                        We'd love if you would dedicate to praying especially for your child! <br>
+                        <small>For details on how funds are used, please see the about page.</small>
+                    </p>
+                    </div>
+
+                    <p>
+                        Please send your check to: <br>
+                        495 E Locust St <br>
+                        Wilmington, OH 45177 <br>
+                        Make check payable to: Door of Hope
+                    </p>
+                </div> <!-- modal-body -->
+            </div> <!-- modal-content -->
+        </div> <!-- modal-dialog -->
+    </div> <!-- modal -->
+
+
+    <div class="container-fluid" id="main">
+
+        <!-- welcome to our page paragraph -->
+        <h1>Sponsor Myanmar Refugees</h1>
+        <div id="homeWelcome">
+            <p>
+                Welcome to our page, we are from a small church in Southern Ohio that helps support a group of chilren's homes in Myanmar. The photos below represent the lives of 73 children from Northern Myanmar who are victims of recent clashes between the National military and local groups. These types of clashes happen constantly in this area, and it's innocent children like these who are the most vulnerable.
+            </p>
+            <p>
+                The team in Myanmar was able to build a new building for this group of kids, and <span>all of them are currently at the home</span>, but they still need sponsors, and that's where you can help!
+                A full sponsorship is $60 per month, and a half sponsorship is $30. You can choose one of these monthly amounts, or make a one time donation.
+            </p>
+
+            <!-- donate button -->
+            <button type="button" class="btn mt-4 mb-2 mb-sm-auto mt-sm-auto donatebtn" data-toggle="modal" data-target="#donateModal">Donate</button>
+        </div>
+
+        <!-- kid's profiles go here -->
+        <div id="photosDiv" class="row"></div>
+    </div>
+
+
+
+    <!-- Bootstrap jQuery, Bootstrap Popper.js, Bootstrap Javascript, and my own Javascript -->
+    <script src="./lib/jquery_3-3-1/jquery.min.js"></script>
+    <script src="./lib/popper_1-12-9/popper.min.js"></script>
+    <script src="./lib/bootstrap_4-0-0/js/bootstrap.min.js"></script>
+    <script src="./static/scripts.js"></script>
+
+</body>
+</html>
