@@ -142,6 +142,7 @@ img
 .story
 {
     margin-top: 10px;
+    text-align: justify;
 }
 
 /* colored status */
