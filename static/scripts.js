@@ -87,7 +87,7 @@ var data = [
        id: 8, name: "Du Du Lay", age: 12, grade: 7, status: "unsponsored",
        story: "She has parents but they are very poor... their home was damaged by bombs in the war."
      }, {
-       id: 9, name: " J Chit Oo", age: 8, grade: 3, status: "unsponsored",
+       id: 9, name: " J Chit Oo", age: 8, grade: 3, status: "sponsored",
        story: "He grew up in wars... always running place to place. He lost his parents. He has been hurt a lot by the war... emotionally. He said: 'When I grow up... I will fight back those people who killed my parents as revenge!'"
      }, {
        id: 10, name: "Ah phu kyaw", age: 14, grade: 9, status: "unsponsored",
@@ -232,7 +232,7 @@ var data = [
        id: 51, name: "Rebecca", age: 10, grade: 5, status: "unsponsored",
        story: "Her father died in the war and her mother is in the refugee camp, and now she is at the home."
      }, {
-       id: 52, name: "Lay Mel Sar", age: 5, grade: "?", status: "unsponsored",
+       id: 52, name: "Lay Mel Sar", age: 5, grade: "?", status: "sponsored",
        story: "His father died from drugs... he was depressed because of the war. Their village was bombed... now the family is staying at the refugee camp."
      }, {
        id: 53, name: "Jay Zar PhiHe", age: 11, grade: 5, status: "unsponsored",
