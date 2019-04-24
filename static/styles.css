@@ -177,6 +177,28 @@ img
 
 
 
+/******************** ADMIN PAGE ********************/
+
+#loginForm {
+   width: 90%;
+   max-width: 325px;
+   margin: 0 auto;
+}
+
+#loginForm input {
+   margin-bottom: 15px;
+}
+
+#loginForm button {
+   margin-top: 10px;
+}
+
+
+
+
+
+
+
 /******************** Modals ********************/
 
 #sponsorDiv
