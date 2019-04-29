@@ -1,4 +1,4 @@
-
+const serverUrl = 'http://localhost:8000/smr';
 $(document).ready(() => {
 
 
@@ -6,14 +6,14 @@ $(document).ready(() => {
       e.preventDefault();
 
       $.ajax({
-         url: 'https://myapi.com/smr/endpoint',
+         url: serverUrl + '/login',
          type: 'POST',
          data: $(this).serialize(),
          success: (res) => {
-            alert(res);
+            console.log(res);
          },
          error: (jqXHR, textStatus, errThrown) => {
-            alert(textStatus);
+            alert(jqXHR.responseText);
          }
       });
    });
