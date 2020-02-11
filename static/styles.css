@@ -109,13 +109,20 @@ h1
 
 /******************** HOME PAGE: Kids profiles ********************/
 
+.imgRow {
+   max-width: 900px;
+   margin: auto;
+}
+
 img
 {
     width: 100%;
-    border-radius: 2px;
+    border-radius: 5px;
     margin-bottom: 5px;
     margin-top: 20px;
-    box-shadow: 2px 2px 3px grey;
+   max-height: 275px;
+   object-fit: cover;
+   object-position: top;
 }
 
 /* figcaption element */
