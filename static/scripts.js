@@ -5,11 +5,11 @@ $(document).ready(function() {
    var photosDiv = document.getElementById('photosDiv');
 
    // for each kid: create a figure element with a photo and personal info
-   for (var i = 0; i < 73; i++) {
+   for (var i = 0; i < 86; i++) {
 
       // create the figure and figcaption elements
       var figure = document.createElement('figure');
-      figure.classList.add('col-6', 'col-sm-4', 'col-md-3');
+      figure.classList.add('col-6', 'col-sm-4');
       var figcaption = document.createElement('figcaption');
       figcaption.classList.add('personalInfo');
 
@@ -296,6 +296,56 @@ var data = [
        id: 72, name: "Gyi Li Ya", age: 12, grade: 7, status: "unsponsored",
        story: "These two sisters hope their family is safe in the refugee camp, but they don't really know. They were seperated during the war, and the camps aren't safe either.",
        siblings: "C Mi Na"
-     }
+     },
+     
+
+
+     {
+      id: 73, name: "San Ko Ko", age: 9, grade: 3, status: "unsponsored",
+      story: "Both parents are refugees of the war and drug use. They won't care for him and left him at our children's house.",
+      siblings: "Joe Sar Dwet"
+   }, {
+      id: 74, name: "Joe Sar Dwet", age: 7, grade: 2, status: "unsponsored",
+      story: "Both parents are refugees of the war and drug use. They won't care for him and left him at our children's house.",
+      siblings: "San Ko Ko"
+   }, {
+      id: 75, name: "Nawarat Sar Jo", age: 7, grade: 2, status: "unsponsored",
+      story: "His father died of drug use, His mother is still alive but is in the war area and addicted to drugs again.",
+   }, {
+      id: 76, name: "Jo Li Si", age: 8, grade: 3, status: "unsponsored",
+      story: "Both parents died in the war.",
+   }, {
+      id: 77, name: "Ngwa So Dwe", age: 8, grade: 4, status: "unsponsored",
+      story: "Parents died in the war. He and his brother came to us through the refugee camp.",
+      siblings: "Ngwa Si Bo"
+   }, {
+      id: 78, name: "Ngwa Si Bo", age: 5, grade: 2, status: "unsponsored",
+      story: "Parents died in the war. He and his brother came to us through the refugee camp.",
+      siblings: "Ngwa So Dwe"
+   }, {
+      id: 79, name: "Maine Pyit So", age: 14, grade: 10, status: "unsponsored",
+      story: "His father is addicted to drugs and his mother lives in the refugee camp.",
+   }, {
+      id: 80, name: "Ah Dee Wo", age: 15, grade: 12, status: "unsponsored",
+      story: "His mother recently died in the refugee camp from hunger and lack of medications.  His father still lives in the refugee camp without seeing any hope for the future.",
+   }, {
+      id: 81, name: "Yae Sar Yet", age: 13, grade: 7, status: "unsponsored",
+      story: "He and his sisters lost both parents in the war.",
+      siblings: "Nye See, Che Sar Nyi"
+   }, {
+      id: 82, name: "Nye See", age: 14, grade: 9, status: "unsponsored",
+      story: "She and her siblings lost both parents in the war.",
+      siblings: "Yae Sar Yet, Che Sar Nyi"
+   }, {
+      id: 83, name: "Che Sar Nyi", age: '', grade: '', status: "unsponsored",
+        story: "She and her siblings lost both parents in the war.",
+      siblings: "Yae Sar Yet, Nye See"
+   }, {
+      id: 84, name: "Nyi Mar Wo", age: 14, grade: 9, status: "unsponsored",
+      story: "She came to the children’s home from the refugee camp. She has parents, but they live in the camp. Her dad is using drugs and her mother has 7 kids. Nyi Mar Wo was unable to go to school, so she came to the children’s home for safety and to attend school.",
+   }, {
+      id: 85, name: "Ryan Ram", age: 13, grade: 7, status: "unsponsored",
+      story: "She has no mother and her father is a blind man.  She was living in a jungle village in the war area and not going to school there because of the war. She came to the children’s home and her father lives alone in the village by planting vegetables in the fields.",
+   }
 
 ]
